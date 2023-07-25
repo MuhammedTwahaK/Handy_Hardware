@@ -1,38 +1,755 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+.NavBarHome {
+  /* background-color: rgb(4, 0, 255); */
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Logo {
+  width: 70px;
+  height: 65px;
+}
+.CompanyName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+.SearchbarIcon {
+  width: 20px;
+  height: 20px;
+}
+.Serachbox {
+  width: 32.5rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.InputAndImg {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 25px;
+  /* justify-content: space-around; */
+  border: 0.5px solid rgba(128, 128, 128, 0.603);
+}
+.LoginBt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.LinkForShops {
+  text-decoration: none;
+}
+.CartBt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.LogoAndText {
+  display: flex;
+  align-items: center;
+  width: 22rem;
+  justify-content: space-evenly;
+}
+.TwoBtinNav {
+  display: flex;
+  align-items: center;
+  width: 16rem;
+  justify-content: space-between;
+}
+.CartImg {
+  width: 25px;
+  height: 25px;
+}
+.LoginImg {
+  width: 22px;
+  height: 22px;
+}
+.CartBtn {
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 25px;
+  border: 1px solid gray;
+  width: 6rem;
+  height: 2rem;
+  justify-content: space-evenly;
+}
+.CartBtn:hover {
+  background-color: rgb(221, 221, 3);
+}
+.LoginBtn:hover {
+  background-color: rgb(221, 221, 3);
+}
+.LoginBtn {
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 25px;
+  border: 1px solid gray;
+  width: 9rem;
+  height: 2rem;
+  justify-content: space-evenly;
+}
+.SecondNv {
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.ItemOne {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.PRODUCTCATEGORIES {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.PRODUCTCATEGORIESDIV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+}
+
+.FourItems1 {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-evenly;
+  width: 85%;
+}
+.FourItems1Div {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FourItems2Div {
+  /* background-color: blue; */
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ItemsBtnOne {
+  background-color: yellow;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemsName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.LinkInPRoIMg {
+  text-decoration: none;
+}
+.ItemOne:hover {
+  color: yellow;
+}
+.TextAlign {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  width: 28rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.QuoteBackG {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Author {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AuthorDIvBg {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+.Quotehead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 1px solid red;
+}
+.QuoteheadDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+}
+.FooterImg {
+  width: 100%;
+  height: 15rem;
+  /* opacity: 50%; */
+  -webkit-filter: brightness(33%) sepia(37%);
+  filter: brightness(33%) sepia(37%);
+}
+.IMageAndFooterText {
+  position: absolute;
+  width: 100%;
+}
+.FooterTextAb {
+  position: relative;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 15rem;
+  width: 35rem;
+}
+.GalleryText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  border-bottom: 1px solid yellow;
+}
+.PhotoText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.FirstFooterIMg {
+  width: 150px;
+  height: 100px;
+}
+.ThreeImgAlign {
+  display: flex;
+  /* background-color: chartreuse; */
+  width: 87%;
+  justify-content: space-between;
+}
+.FirstImgBrd {
+  /* background-color: aqua; */
+  height: 110px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgba(255, 255, 255, 0.637);
+}
+.FirstFooterIMg:hover {
+  transform: scale(1.05);
+  transition: 2s;
+}
+.ViewMore {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ViewMoreDiv {
+  background-color: yellow;
+  width: 100px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid yellow;
+}
+.ViewMoreDiv:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+.ALignmentofDivView {
+  /* background-color: aquamarine; */
+  width: 486px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.FirsttileofFooter {
+  display: flex;
+  /* background-color: beige; */
+  width: 130px;
+  justify-content: space-between;
+}
+.Socialmedia {
+  position: relative;
+}
+.ForTotalFotterFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.FbTWIn {
+  display: flex;
+  /* background-color: antiquewhite; */
+  width: 125px;
+  justify-content: space-between;
+}
+.Sovial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.Meiai {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  border-bottom: 1px solid yellow;
+}
+.Facebookicon {
+  width: 25px;
+  height: 25px;
+}
+.FOntOfsocialmedia {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  /* background-color: azure; */
+  width: 180px;
+  justify-content: space-between;
+}
+.sociamediaFacbook {
+  /* background-color: chartreuse; */
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Socialmedia {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.AdressFooter {
+  position: relative;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Adre {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+.HANdy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.HARware {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  border-bottom: 1px solid yellow;
+}
+.DEtailsdiv {
+  display: flex;
+  flex-direction: column;
+}
+.TextT {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.Footerend {
+  background-color: black;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Copyright {
+  color: white;
+  font-size: 12px;
+}
+.bannerIMg {
+  width: 850px;
+  height: 250px;
+  border-radius: 25px;
+}
+.BAnner {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  height: 28rem;
+}
+.AppThree {
+  width: 25rem;
+}
+.Brands {
+  display: flex;
+  width: 75rem;
+  /* background-color: blue; */
+  justify-content: space-evenly;
+}
+.Goderaj {
+  width: 8rem;
+}
+.IconONe {
+  background-color: white;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.452);
+  width: 11rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.AllBRAndITEms {
+  /* background-color: aqua; */
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.IconONe:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+  box-shadow: 0 0 8px 0 rgba(141, 141, 141, 0.623);
+}
+.BrandTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Drandtitlediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LinkDec {
+  text-decoration: none;
+}
+.HomeLogoDiv {
+  background-color: black;
+  width: 50px;
+  height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeLOgo {
+  width: 30px;
+  height: 30px;
+}
+.CarTLOgo {
+  width: 35px;
+  height: 35px;
+}
+.CarTLOgoDiv {
+  background-color: yellow;
+  width: 50px;
+  height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeAndCarTBt {
+  display: flex;
+  /* background-color: aqua; */
+  height: 6rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.MainDivOFHLDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ShopNOW {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+.ShopNOWDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  height: 5rem;
+}
+.ggd {
+  position: relative;
+}
+.BGGHNBHGH {
+  position: absolute;
+  height: 48rem;
+  width: 100%;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+.Staret {
+  width: 200px;
+  height: 60px;
+}
+.DetailsOfKItech {
+  border: 0.5px solid rgba(128, 128, 128, 0.178);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.767);
+  width: 80%;
+  height: 40rem;
+}
+.IT {
+  /* background-color: rgb(255, 0, 200); */
+  display: flex;
+  justify-content: space-between;
+}
+.KitechItemsTotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(0, 170, 113, 0.137); */
+  height: 43rem;
+}
+.KitchenTExt {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.KitechnDivD {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.ProdeuctItemOne {
+  width: 125px;
+  height: 125px;
+  mix-blend-mode: multiply;
+}
+.Dipsal {
+  display: flex;
+}
+.widthofBtn {
+  width: 15rem;
+  height: 2rem;
+}
+.dispsdu {
+  background-color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: none;
+}
+.Img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ProductDivds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: rgb(0, 158, 132); */
+  height: 36rem;
+  /* width: 155px; */
+  /* align-items: end; */
+}
+.BootStrapCoded {
+  /* background-color: chartreuse; */
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.DiscriptionSide {
+  /* background-color: chartreuse; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.LAstLEfsft {
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-between;
+}
+.ImgANdiTemsDeatilsBra {
+  display: flex;
+  /* background-color: darkmagenta; */
+  width: 538px;
+  height: 10rem;
+  justify-content: space-evenly;
+}
+.ColorForClick {
+  background-color: rgba(95, 158, 160, 0.233);
+  border-radius: 0 25px 25px 0;
+}
+.DetailsDIV {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(255, 153, 0); */
+  justify-content: center;
+  width: 290px;
+}
+.NameDetails {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.PriceDetails {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+.BrandDetails {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.offerDetails {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+.BtinCARt {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtFORcart {
+  width: 4rem;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+  /* background-color: yellow; */
+}
+.LongDIS {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.FLomng {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+  height: 500px;
+}
+.LINKLINK {
+  display: flex;
+  /* background-color: coral; */
+  width: 430px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.KItchenBackYellow {
+  background-color: yellow;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+}
+.TextColorChangetoblck {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.TextColorChangetoblck:hover {
+  color: black;
+}
+.IMgOne {
+  width: 250px;
+  height: 300px;
+  transition: all 1.1s;
+  overflow: hidden;
+  background-size: cover;
+}
+.bg-one {
+  background-image: url(https://img.freepik.com/free-photo/front-view-wooden-spoons-with-pots-cinnamon-dark-wall-photo-color-seasonings-salt-food-cutlery_179666-17652.jpg?w=360&t=st=1689749677~exp=1689750277~hmac=c07cff09e02c092f414972791e64143df0a8e6989b0f5c4b99725ca0320b4091);
+}
+.bg-two {
+  background-image: url(https://img.freepik.com/free-photo/fiber-optics-abstract-blur-surface_1048-14119.jpg?w=740&t=st=1689749774~exp=1689750374~hmac=5c343cd48b21fe87d17d24fa77cfc0c840024eab5cc4f73d55112aa858706e86);
+}
+.bg-three {
+  background-image: url(https://img.freepik.com/premium-photo/smart-card-door-key-lock-system-hotels-business-technology-market_39420-112.jpg?w=360);
+}
+.bg-four {
+  background-image: url(https://img.freepik.com/free-photo/tools-table_144627-8729.jpg?w=360&t=st=1689749952~exp=1689750552~hmac=28cd057572f6b5e2096236b6abdf7d069e314e9e14868d9829eac956234aa250);
+}
+.bg-five {
+  background-image: url(https://img.freepik.com/free-photo/artist-mixing-paint-from-cans_23-2148591293.jpg?w=360&t=st=1689751129~exp=1689751729~hmac=f17e0a390f82de763528139a1a4fbfd728eebc2bf7eb0812f144d6f33faa3dbe);
+}
+.bg-six {
+  background-image: url(https://img.freepik.com/free-photo/full-shot-man-with-helmet-sitting-roof_23-2149343664.jpg?w=360&t=st=1689751178~exp=1689751778~hmac=866468376a8c2a3bbaed60fc06d90fd87a75be645ad327f995a9d08c4643e557);
+}
+.bg-seven {
+  background-image: url(https://img.freepik.com/premium-photo/bright-interior-design-luxury-house_305343-3804.jpg?w=360);
+}
+.bg-eight {
+  background-image: url(https://img.freepik.com/free-photo/bolts-nuts_144627-17670.jpg?w=360&t=st=1689751401~exp=1689752001~hmac=4872de06303338af188ebc204d4743941dd96f72f38bc0e5c52f5b54d7ac6e92);
+}
+.ImgmHoVER {
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ImgmHoVER:hover .IMgOne {
+  transform: scale(1.2);
+  position: relative;
+}
+.GridCenter2In2{
+  width: 80%;
+ /* background-color: aquamarine; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  margin-top: 5rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.shadowforcartshop{
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.418);
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+.padidingofshopNow{
+  padding-top: 10rem;
 }

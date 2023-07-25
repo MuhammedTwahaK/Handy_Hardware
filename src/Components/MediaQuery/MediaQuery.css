@@ -1,0 +1,268 @@
+@media (max-width: 500px) {
+  .NavBarHome {
+    height: 150px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+  .Serachbox {
+    width: 250px;
+  }
+  .InputAndImg {
+    width: 290px;
+  }
+  .TwoBtinNav {
+    display: none;
+  }
+  .SecondNv {
+    width: 375px;
+    /* background-color: aqua; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .LinkDec {
+    display: flex;
+    justify-content: center;
+  }
+  .ItemOne {
+    font-size: 3px;
+  }
+  /* .FourItems1Div{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+} */
+  .FourItems1 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    /* height: 88rem; */
+    align-items: center;
+  }
+  .ItemsBtnOne {
+    width: 250px;
+  }
+  .FourItems1Div {
+    /* background-color: blue; */
+    height: 88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .FourItems2Div {
+    /* background-color: chartreuse; */
+    height: 88rem;
+  }
+  .AllBRAndITEms {
+    /* background-color: aqua; */
+    height: 35rem;
+  }
+  .Brands {
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+  }
+  .bannerIMg {
+    width: 350px;
+    height: 150px;
+  }
+  .AppThree {
+    width: 200px;
+  }
+  .BAnner {
+    /* background-color: aqua; */
+    height: 15rem;
+  }
+  .Footerend {
+    width: 375px;
+  }
+  .Copyright {
+    font-size: 10px;
+  }
+  .FooterImg {
+    width: 375px;
+    height: 60rem;
+    -webkit-filter: brightness(33%) sepia(37%);
+    filter: brightness(18%) sepia(22%);
+  }
+  .ForTotalFotterFlex {
+    display: flex;
+    flex-direction: column;
+    /* background-color: chartreuse; */
+  }
+  .FooterTextAb {
+    /* background-color: aqua; */
+    height: 30rem;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ThreeImgAlign {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    justify-content: space-evenly;
+    /* background-color: cornflowerblue; */
+    align-items: center;
+  }
+  .ALignmentofDivView {
+    /* background-color: coral; */
+    width: 100px;
+  }
+  .FirstImgBrd {
+    /* background-color: blue; */
+  }
+  .Socialmedia {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    height: 15rem;
+  }
+  .AdressFooter {
+    /* background-color: aqua; */
+    height: 15rem;
+    display: flex;
+    align-items: center;
+  }
+  .KItchenBackYellow {
+    width: 50px;
+    height: 25.8px;
+  }
+  .BGGHNBHGH {
+    width: 375px;
+    height: 53rem;
+  }
+  .MainDivOFHLDiv {
+    width: 375px;
+  }
+  .HomeLogoDiv {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .HomeLOgo {
+    width: 15px;
+    height: 15px;
+  }
+  .CarTLOgo {
+    width: 15px;
+    height: 15px;
+  }
+  .CarTLOgoDiv {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .Logo1 {
+    width: 50px;
+    height: 50px;
+  }
+  .CompanyName1 {
+    font-size: 16px;
+  }
+  .LogoAndText1 {
+    /* background-color: blue; */
+    width: 250px;
+  }
+  .KitechItemsTotal {
+    width: 375px;
+    height: 48rem;
+    /* background-color: chocolate; */
+  }
+  .DetailsOfKItech {
+    width: 330px;
+    /* background-color: blueviolet; */
+    height: 47rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .KitechnDivD {
+    /* background-color: aqua; */
+    width: 200px;
+  }
+  .ProductDivds {
+    margin-bottom: 5rem;
+  }
+  .LAstLEfsft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 300px;
+    justify-content: space-evenly;
+  }
+  .ImgANdiTemsDeatilsBra {
+    width: 330px;
+    height: 125px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+  }
+  .ProdeuctItemOne {
+    width: 100px;
+    height: 100px;
+  }
+  .NameDetails {
+    font-size: 11px;
+  }
+  .PriceDetails {
+    font-size: 12px;
+  }
+  .BrandDetails {
+    font-size: 12px;
+  }
+  .offerDetails {
+    font-size: 12px;
+  }
+  .GridCenter2In2 {
+    width: 60%;
+    height: 800rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    /* background-color: aqua; */
+    margin-top: 2rem;
+  }
+  .ImdagInMEidaquery {
+    width: 150px;
+    height: 150px;
+  }
+  .NameDetailsMedia {
+    font-size: 16px;
+  }
+  .PriceDetailsMedia {
+    font-size: 18px;
+  }
+  .BrandDetailsMedia {
+    font-size: 18px;
+  }
+  .offerDetailsMedia {
+    font-size: 18px;
+  }
+  .TotalItemInCl {
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 80%;
+    height: 25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .BtFORcartMediaa {
+    width: 150px;
+    height: 50px;
+  }
+  .BtinCARtMEDIa {
+    height: 100px;
+  }
+}
