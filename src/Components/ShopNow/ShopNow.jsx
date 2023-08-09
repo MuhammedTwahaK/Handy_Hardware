@@ -230,7 +230,7 @@ const ShopNow = () => {
   ];
   return (
     <div>
-      <div className="MainDivOFHLDiv shadowforcartshop">
+      {/* <div className="MainDivOFHLDiv shadowforcartshop">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -261,7 +261,7 @@ const ShopNow = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="ShopNOWDiv padidingofshopNow">
         <span className="ShopNOW">SHOP NOW</span>

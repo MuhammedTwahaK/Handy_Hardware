@@ -2,11 +2,13 @@ import React from "react";
 import Home from "../Images/home.png";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
+import { Hardware } from "../../../Prodect";
+import Prodects from "./Prodects";
 
 const KitchenAccessories = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -21,15 +23,17 @@ const KitchenAccessories = () => {
             </div>
           </Link>
 
-          <div className="CarTLOgoDiv">
-            <img
-              className="CarTLOgo"
-              src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
-              alt=""
-            />
-          </div>
+<Link to={"Cart"}>
+            <div className="CarTLOgoDiv">
+              <img
+                className="CarTLOgo"
+                src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
+                alt=""
+              />
+            </div>
+            </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="SecondNv">
         <Link className="LinkDec KItchenBackYellow" to={"/KitchenAccessories"}>
@@ -81,38 +85,42 @@ const KitchenAccessories = () => {
           </div>
 
           <div className="KitechItemsTotal">
+            
             <div className="DetailsOfKItech">
+     
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Kitchen Accessories</span>
               </div>
+              
+
+
+
+              
+              {
+                        Hardware.map((product)=>(
+                          <Prodects data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
+             
+
+
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
-                    <Link className="LINKLINK" to={"/KitchenAccessories"}>
-                      <div className="Img1">
-                        <img
-                          className="ProdeuctItemOne"
-                          src="https://m.media-amazon.com/images/I/31oGzYuN6mL._SX425_.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div className="DetailsDIV">
-                        <span className="NameDetails">
-                          Kohler Malleco Pulldown Sink Tap
-                        </span>
-                        <span className="PriceDetails">₹10,999</span>
-                        <span className="BrandDetails">Kohler</span>
-                        <span className="offerDetails">Offer 35%</span>
-                      </div>
-                    </Link>
 
-                    <div className="BtinCARt">
-                      <button className="BtFORcart">Cart</button>
-                    </div>
-                  </div>
 
-                  <div className="BootStrapCoded">
+                      
+                  
+
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -174,10 +182,10 @@ const KitchenAccessories = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </div> */}
+                </div> 
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Vrprime"}>
                     <div className="Img1">
                       <img
@@ -196,9 +204,9 @@ const KitchenAccessories = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Amazon"}>
                     <div className="Img1">
                       <img
@@ -219,8 +227,8 @@ const KitchenAccessories = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
-
+                </div> */}
+{/* 
                 <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Plantex"}>
                     <img
@@ -240,7 +248,7 @@ const KitchenAccessories = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'> */}

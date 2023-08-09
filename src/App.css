@@ -513,7 +513,7 @@
 }
 .BGGHNBHGH {
   position: absolute;
-  height: 48rem;
+  height: 58rem;
   width: 100%;
   -webkit-filter: blur(3px);
   filter: blur(3px);
@@ -527,7 +527,7 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.767);
   width: 80%;
-  height: 40rem;
+  height: 50rem;
 }
 .IT {
   /* background-color: rgb(255, 0, 200); */
@@ -539,7 +539,7 @@
   align-items: center;
   justify-content: center;
   /* background-color: rgba(0, 170, 113, 0.137); */
-  height: 43rem;
+  height: 53rem;
 }
 .KitchenTExt {
   font-size: 16px;
@@ -581,7 +581,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   /* background-color: rgb(0, 158, 132); */
-  height: 36rem;
+  /* height: 36rem; */
   /* width: 155px; */
   /* align-items: end; */
 }
@@ -752,4 +752,340 @@
 }
 .padidingofshopNow{
   padding-top: 10rem;
+}
+.LinkInCArt{
+  text-decoration: none;
+}
+.CartITEmFlex{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  height: 11.5rem;
+}
+.LonkCLart{
+  text-decoration: none;
+  color: black;
+}
+.LonkCLart:hover{
+  color: black;
+}
+.CounterHandler{
+  display: flex;
+  height: 50px;
+  width: 175px;
+  /* background-color: blue; */
+}
+.CArTItems{
+  /* background-color: aqua; */
+  /* padding-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  /* height: 50rem; */
+}
+.TotaLAmtlr{
+  color: red;
+}
+.CheckOut{
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 7rem;
+  justify-content: space-around;
+}
+.ContinueBTNShop{
+  background-color: black;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 15px;
+  border: none;
+}
+.ContinueBTNShop:hover{
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+.plusandminesbtbn{
+  border: none;
+  background-color: black;
+  color: white;
+  width: 2.5rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.plusandminesbtbn:hover{
+  background-color: rgb(29, 29, 29);
+}
+.InputoutCounts{
+  width: 4rem;
+  height: 2rem;
+  border: none;
+text-align: center;
+font-size: 16px;
+color: red;
+font-weight: bold;
+  outline: none;
+}
+.CArtItemsOutPutLikn{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.514);
+  width: 40rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  /* padding-top: 10rem; */
+  margin-top: 1rem;
+}
+.totalcartitemalignt{
+  display: flex;
+}
+.ClssForLoginPut{
+  /* background-color: blueviolet; */
+  width: 75%;
+  display: flex;
+align-items: center;
+  justify-content: center;
+}
+.forPUtPAgeHHN{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: 80%;
+
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+height: 425px;
+  background-color: #fff;
+  border: .2px solid rgba(0, 0, 0, 0.329);
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title::before,.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.message, .signin {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: bold;
+  width: 15rem;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: royalblue;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: green;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(222, 233, 212, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  /* background-color: #d624be; */
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: self-start;
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-image:linear-gradient(rgb(0, 0, 0),rgba(0,0,0,0.7)),url(https://img.freepik.com/free-vector/people-hardware-shop-woman-assistant-standing-talking-man-tools-materials-store-interior-design-panorama-with-drills-toolkits-hammers-screwdrivers_575670-2440.jpg?w=2000);
+
+}
+.PopUPDAtesTEXt{
+  color: white;
+}
+
+.buttondiv{
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.dd{
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: bold;
+  color:  black;
+}
+.dd:hover{
+color: rgba(0, 0, 0, 0.712);
+}
+.TableRowData1{
+  color: white;
+}
+.TableHeadData2{
+  color: rgb(255, 0, 0);
+}
+.TableHeadData1{
+  color: rgb(255, 0, 0);
+}
+.PrintTable{
+width: 160%;
+}
+.BuyBtnLINk{
+  /* background-color: aquamarine; */
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 3rem;
+}
+.billname{
+  color: yellow;
+}
+.dateandinvoiceNumb{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }

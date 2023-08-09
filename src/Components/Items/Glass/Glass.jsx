@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import Home from "../Images/home.png";
+import {Hardware} from "../../../Prodect"
+import GlassPro from "./GlassPro";
 
 const Glass = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +31,7 @@ const Glass = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
           <span className="ItemOne">KITCHEN ACCESSORIES</span>
@@ -81,10 +83,23 @@ const Glass = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Glass & Door Fittings</span>
               </div>
+
+
+              {
+                        Hardware.map((product)=>(
+                          <GlassPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Glass"}>
                       <div className="Img1">
                         <img
@@ -169,10 +184,10 @@ const Glass = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Taj"}>
                     <img
                       className="ProdeuctItemOne"
@@ -189,9 +204,9 @@ const Glass = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Soul"}>
                     <img
                       className="ProdeuctItemOne"
@@ -208,8 +223,8 @@ const Glass = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
-
+                </div> */}
+{/* 
                 <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Rab"}>
                     <img
@@ -229,7 +244,7 @@ const Glass = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

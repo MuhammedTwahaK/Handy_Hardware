@@ -1,4 +1,7 @@
 @media (max-width: 500px) {
+  /* *{
+    overflow-x: hidden;
+  } */
   .NavBarHome {
     height: 150px;
     width: 375px;
@@ -12,8 +15,24 @@
   .InputAndImg {
     width: 290px;
   }
-  .TwoBtinNav {
+  /* .TwoBtinNav {
     display: none;
+  } */
+  .LoginBtn{
+    display: none;
+  }
+  .totalcartitemalignt{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+  }
+  .TwoBtinNav{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
   }
   .SecondNv {
     width: 375px;
@@ -137,7 +156,11 @@
   }
   .BGGHNBHGH {
     width: 375px;
-    height: 53rem;
+    height: 46rem;
+  }
+  .CartITEmFlex{
+    /* background-color: aqua; */
+    height: 8rem;
   }
   .MainDivOFHLDiv {
     width: 375px;
@@ -173,13 +196,13 @@
   }
   .KitechItemsTotal {
     width: 375px;
-    height: 48rem;
+    height: 41rem;
     /* background-color: chocolate; */
   }
   .DetailsOfKItech {
     width: 330px;
     /* background-color: blueviolet; */
-    height: 47rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -188,9 +211,9 @@
     /* background-color: aqua; */
     width: 200px;
   }
-  .ProductDivds {
+  /* .ProductDivds {
     margin-bottom: 5rem;
-  }
+  } */
   .LAstLEfsft {
     display: flex;
     flex-direction: column;
@@ -198,6 +221,7 @@
     /* background-color: aqua; */
     height: 300px;
     justify-content: space-evenly;
+    display: none;
   }
   .ImgANdiTemsDeatilsBra {
     width: 330px;
@@ -264,5 +288,62 @@
   }
   .BtinCARtMEDIa {
     height: 100px;
+  }
+  .CArTItems{
+    /* background-color: aquamarine; */
+    width: 375px;
+  }
+  .CarTIteMs{
+    /* background-color: brown; */
+    width: 375px;
+  }
+  .PadiiingDivforaliing{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    margin-bottom: 1rem;
+  }
+  .CArtItemsOutPutLikn{
+/* background-color: cornflowerblue; */
+width: 350px;
+height: 125px;
+  }
+  .ClssForLoginPut{
+    /* background-color: aquamarine; */
+    width: 375px;
+  }
+  .forPUtPAgeHHN{
+    /* background-color: chartreuse; */
+    width: 110%;
+  }
+  .plusandminesbtbn{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+  }
+  .InputoutCounts{
+    /* background-color: aqua; */
+    height: 1.5rem;
+  }
+  .CounterHandler{
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .5rem;
+  }
+  .modal-content{
+    /* background-color: aqua; */
+    width: 350px;
+  }
+  .TableRowData121{
+    /* background-color: blueviolet; */
+    display: none;
+  }
+  .PrintTable{
+    /* background-color: aqua; */
+    width: 320px;
   }
 }

@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import Home from "../Images/home.png";
+import {Hardware} from "../../../Prodect"
+import PaintsPro from "./PaintsPro";
 
 const Paints = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +31,7 @@ const Paints = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
           <span className="ItemOne">KITCHEN ACCESSORIES</span>
@@ -81,10 +83,31 @@ const Paints = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Paints & Related Items</span>
               </div>
+
+
+
+              {
+                        Hardware.map((product)=>(
+                          <PaintsPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
+
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Paints"}>
                       <div className="Img1">
                         <img
@@ -106,8 +129,8 @@ const Paints = () => {
                     <div className="BtinCARt">
                       <button className="BtFORcart">Cart</button>
                     </div>
-                  </div>
-                  <div className="BootStrapCoded">
+                  </div> */}
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -169,10 +192,10 @@ const Paints = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Berger"}>
                     <img
                       className="ProdeuctItemOne"
@@ -189,9 +212,9 @@ const Paints = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Asian"}>
                     <img
                       className="ProdeuctItemOne"
@@ -208,8 +231,8 @@ const Paints = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
-
+                </div> */}
+{/* 
                 <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Emulsion"}>
                     <img
@@ -229,7 +252,7 @@ const Paints = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

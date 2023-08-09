@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Home from "../Images/home.png";
 import Logo from "../Images/Logo.png";
+import RoofingPro from "./RoofingPro";
+import {Hardware} from "../../../Prodect"
 
 const Roofing = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +31,7 @@ const Roofing = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
           <span className="ItemOne">KITCHEN ACCESSORIES</span>
@@ -79,10 +81,22 @@ const Roofing = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Roofing Sheets</span>
               </div>
+
+
+              {
+                        Hardware.map((product)=>(
+                          <RoofingPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Roofing"}>
                       <div className="Img1">
                         <img
@@ -104,8 +118,8 @@ const Roofing = () => {
                     <div className="BtinCARt">
                       <button className="BtFORcart">Cart</button>
                     </div>
-                  </div>
-                  <div className="BootStrapCoded">
+                  </div> */}
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -167,10 +181,10 @@ const Roofing = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Generics"}>
                     <img
                       className="ProdeuctItemOne"
@@ -187,9 +201,9 @@ const Roofing = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Tarang"}>
                     <img
                       className="ProdeuctItemOne"
@@ -206,9 +220,9 @@ const Roofing = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Sahul"}>
                     <img
                       className="ProdeuctItemOne"
@@ -225,7 +239,7 @@ const Roofing = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

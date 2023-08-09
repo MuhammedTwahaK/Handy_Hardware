@@ -2,11 +2,15 @@ import React from "react";
 import Home from "../Images/home.png";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
+import WirePro from "./WirePro";
+import {Hardware} from "../../../Prodect"
+
+
 
 const Wires = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +33,7 @@ const Wires = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
@@ -83,10 +87,23 @@ const Wires = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Wires & Wire Products</span>
               </div>
+
+
+
+
+              {
+                        Hardware.map((product)=>(
+                          <WirePro data={product}/>
+                        ))
+                      }
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Wires"}>
                       <div className="Img1">
                         <img
@@ -106,8 +123,11 @@ const Wires = () => {
                     <div className="BtinCARt">
                       <button className="BtFORcart">Cart</button>
                     </div>
-                  </div>
-                  <div className="BootStrapCoded">
+                  </div> */}
+
+
+
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -169,10 +189,13 @@ const Wires = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+
+
+
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Copper"}>
                     <img
                       className="ProdeuctItemOne"
@@ -189,9 +212,9 @@ const Wires = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Piergiacomi"}>
                     <img
                       className="ProdeuctItemOne"
@@ -210,9 +233,9 @@ const Wires = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Tazlyn"}>
                     <img
                       className="ProdeuctItemOne"
@@ -231,7 +254,7 @@ const Wires = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

@@ -1,6 +1,6 @@
 import React from "react";
 import Twitter from "../Images/twitter.png";
-import FooterEnd from "./FooterEnd";
+// import FooterEnd from "./FooterEnd";
 
 const Footer = () => {
   return (

@@ -23,7 +23,7 @@ import Fastners from "./Components/Items/Fastners/Fastners";
 import Kraft from "./Components/Items/Tools/Kraft";
 import Sharpex from "./Components/Items/Tools/Sharpex";
 import Wold from "./Components/Items/Tools/Wold";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 import Asian from "./Components/Items/Paints/Asian";
 import Berger from "./Components/Items/Paints/Berger";
 import Emulsion from "./Components/Items/Paints/Emulsion";
@@ -38,10 +38,14 @@ import Concrete from "./Components/Items/Fastners/Concrete";
 import Source from "./Components/Items/Fastners/Source";
 import FooterEnd from "./Components/Footer/FooterEnd";
 import ShopNow from "./Components/ShopNow/ShopNow";
+import { ShopContextProvider } from "./Context/shop-context";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
     <BrowserRouter>
+    <ShopContextProvider>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<NavBar />} />
 
@@ -87,8 +91,10 @@ function App() {
         <Route path="Concrete" element={<Concrete />} />
         <Route path="Source" element={<Source />} />
         <Route path="ShopNow" element={<ShopNow />} />
+        <Route path="Cart" element={<Cart/>}/>
       </Routes>
       <FooterEnd />
+      </ShopContextProvider>
     </BrowserRouter>
   );
 }

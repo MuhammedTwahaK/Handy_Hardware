@@ -1,8 +1,10 @@
+
 import React from "react";
 import Quotes from "../Quotes/Quotes";
 import { Link } from "react-router-dom";
 
 const Products = () => {
+  
   return (
     <div>
       <div className="PRODUCTCATEGORIESDIV">

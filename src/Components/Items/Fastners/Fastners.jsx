@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import Home from "../Images/home.png";
+import {Hardware} from "../../../Prodect"
+import FastnerspPro from "./FastnerspPro";
 const Fastners = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -28,7 +30,7 @@ const Fastners = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
@@ -81,10 +83,26 @@ const Fastners = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Fastners & Bolts</span>
               </div>
+
+
+              {
+                        Hardware.map((product)=>(
+                          <FastnerspPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Fastners"}>
                       <div className="Img1">
                         <img
@@ -168,10 +186,10 @@ const Fastners = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Source"}>
                     <img
                       className="ProdeuctItemOne"
@@ -188,9 +206,9 @@ const Fastners = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Anchor"}>
                     <img
                       className="ProdeuctItemOne"
@@ -207,8 +225,8 @@ const Fastners = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
-
+                </div> */}
+{/* 
                 <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Concrete"}>
                     <img
@@ -226,7 +244,7 @@ const Fastners = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

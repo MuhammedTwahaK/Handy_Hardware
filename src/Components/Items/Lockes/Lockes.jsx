@@ -2,11 +2,13 @@ import React from "react";
 import Home from "../Images/home.png";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
+import {Hardware} from "../../../Prodect"
+import LockesPro from "./LockesPro";
 
 const Lockes = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +31,7 @@ const Lockes = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
@@ -82,10 +84,25 @@ const Lockes = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Lockes & Accessories</span>
               </div>
+
+
+
+              {
+                        Hardware.map((product)=>(
+                          <LockesPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Lockes"}>
                       <div className="Img1">
                         <img
@@ -105,8 +122,8 @@ const Lockes = () => {
                     <div className="BtinCARt">
                       <button className="BtFORcart">Cart</button>
                     </div>
-                  </div>
-                  <div className="BootStrapCoded">
+                  </div> */}
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -168,9 +185,9 @@ const Lockes = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-
+{/* 
                 <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/CarFrill"}>
                     <img
@@ -188,9 +205,9 @@ const Lockes = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Generic"}>
                     <img
                       className="ProdeuctItemOne"
@@ -207,9 +224,9 @@ const Lockes = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Rjvon"}>
                     <img
                       className="ProdeuctItemOne"
@@ -228,7 +245,7 @@ const Lockes = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <div className='DiscriptionSide'>
   <div className="FLomng">

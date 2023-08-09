@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import Home from "../Images/home.png";
+import ToolsPro from "./ToolsPro";
+import {Hardware} from "../../../Prodect"
 
 const Tools = () => {
   return (
     <div>
-      <div className="MainDivOFHLDiv">
+      {/* <div className="MainDivOFHLDiv">
         <div className="HomeAndCarTBt">
           <Link to={"/"}>
             <div className="HomeLogoDiv">
@@ -29,7 +31,7 @@ const Tools = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
           <span className="ItemOne">KITCHEN ACCESSORIES</span>
@@ -79,10 +81,23 @@ const Tools = () => {
               <div className="KitechnDivD">
                 <span className="KitchenTExt">Tools & Agreco</span>
               </div>
+
+
+              {
+                        Hardware.map((product)=>(
+                          <ToolsPro data={product}/>
+                        ))
+                      }
+
+
+
+
+
+
               {/* <div className='IT'> */}
               <div className="ProductDivds">
                 <div className="LAstLEfsft">
-                  <div className="ImgANdiTemsDeatilsBra ColorForClick">
+                  {/* <div className="ImgANdiTemsDeatilsBra ColorForClick">
                     <Link className="LINKLINK" to={"/Tools"}>
                       <div className="Img1">
                         <img
@@ -104,8 +119,8 @@ const Tools = () => {
                     <div className="BtinCARt">
                       <button className="BtFORcart">Cart</button>
                     </div>
-                  </div>
-                  <div className="BootStrapCoded">
+                  </div> */}
+                  {/* <div className="BootStrapCoded">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -167,10 +182,10 @@ const Tools = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Sharpex"}>
                     <img
                       className="ProdeuctItemOne"
@@ -189,9 +204,9 @@ const Tools = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Wold"}>
                     <img
                       className="ProdeuctItemOne"
@@ -210,9 +225,9 @@ const Tools = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="ImgANdiTemsDeatilsBra">
+                {/* <div className="ImgANdiTemsDeatilsBra">
                   <Link className="LINKLINK" to={"/Kraft"}>
                     <img
                       className="ProdeuctItemOne"
@@ -231,7 +246,7 @@ const Tools = () => {
                   <div className="BtinCARt">
                     <button className="BtFORcart">Cart</button>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* <div className='DiscriptionSide'>

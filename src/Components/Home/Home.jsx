@@ -6,11 +6,11 @@ import Four from "../Images/Four.jpg";
 import Products from "../../Products/Products";
 import NavBar from "../NavBar/NavBar";
 import { Link } from "react-router-dom";
+import Cart from "../Cart/Cart";
 
 const Home = () => {
   return (
     <div>
-      <NavBar />
       <div className="SecondNv">
         <Link className="LinkDec" to={"/KitchenAccessories"}>
           <span className="ItemOne">KITCHEN ACCESSORIES</span>

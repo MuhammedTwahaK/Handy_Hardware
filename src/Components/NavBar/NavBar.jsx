@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import Cart from "../Images/Cart.png";
-import Login from "../Images/Login.png";
+// import Login from "../Images/Login.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -30,10 +30,12 @@ const NavBar = () => {
             <img className="LoginImg" src="https://cdn-icons-png.flaticon.com/128/2430/2430422.png" alt="" />
           </div>
           </Link>
+<Link className="LonkCLart" to={"Cart"}>
           <div className="CartBtn">
             <span className="CartBt">CART</span>
             <img className="CartImg" src={Cart} alt="" />
           </div>
+          </Link>
         </div>
       </div>
 
